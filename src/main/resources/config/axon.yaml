@@ -1,0 +1,12 @@
+axon:
+  axonserver:
+    enabled: true
+    servers: ${axonserver.url}
+    keep-alive-time: 0
+    ssl-enabled: true
+    context: ${axonserver.context}
+    token: ${axonserver.token}
+  serializer:
+    general: jackson
+    events: jackson
+    messages: jackson

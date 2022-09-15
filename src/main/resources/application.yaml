@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: axon-playground
+  config:
+    import:
+      - classpath:config/axon.yaml
+
+server:
+  servlet:
+    context-path: /
